@@ -60,7 +60,7 @@
       string $shelf_name,
       string $key
     ) {
-      self::advancedLoad(string $shelf_name,string $key,false);
+      self::advancedLoad($shelf_name,$key,false);
     }
 
     public static function unset(string $key) {
